@@ -2,20 +2,20 @@
 
 
 ### Get all dogs
-GET {{host}}/?fields=name&offset=0&limit=2&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOjEwMCwiZXhwIjoxNjUzODMxMjcxfQ.5Flh_rT5Jt_3tcELDSbMqUoHaYAUD7BHDeRwrKPUQ08 HTTP/1.1
+GET {{host}}/?fields=name&offset=0&limit=2&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOjEwMCwiZXhwIjoxNjU0NjEwNTU5fQ.b6NA9ShQ0aTRcYdaasZLiWQas1NIDLzBIIrng7O0UE4 HTTP/1.1
 
 
 ### Create new dogs
-POST {{host}}/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOjEwMCwiZXhwIjoxNjUzODMxMjcxfQ.5Flh_rT5Jt_3tcELDSbMqUoHaYAUD7BHDeRwrKPUQ08 HTTP/1.1
+POST {{host}}/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOjEwMCwiZXhwIjoxNjU0NjEwNTU5fQ.b6NA9ShQ0aTRcYdaasZLiWQas1NIDLzBIIrng7O0UE4 HTTP/1.1
 Content-Type: application/json
 
 {
     "id": 0,
-    "name": "Blackie5"
+    "name": "Iro"
 }
 
 ### Create new dogs
-POST {{host}}/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOjEwMCwiZXhwIjoxNjUzODMxMjcxfQ.5Flh_rT5Jt_3tcELDSbMqUoHaYAUD7BHDeRwrKPUQ08 HTTP/1.1
+POST {{host}}/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOjEwMCwiZXhwIjoxNjU0NjEwNTU5fQ.b6NA9ShQ0aTRcYdaasZLiWQas1NIDLzBIIrng7O0UE4 HTTP/1.1
 Content-Type: application/json
 
 {
